@@ -40,11 +40,11 @@ console.log(ispremium)
         </NavLink>
       </div>
 
-      <div className="subDivvA">
+      {/* <div className="subDivvA">
         <NavLink to="/about" className="nammeclass">
           About us
         </NavLink>
-      </div>
+      </div> */}
 
     {ispremium && <div className="container">
         <button onClick={checkBoxHandler} className='toggleBtn'>Toggle</button>
