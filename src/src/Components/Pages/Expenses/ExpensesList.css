@@ -1,0 +1,95 @@
+.maindivitems{
+    margin-left: 3%;
+}
+.maindivitemsh3{
+   
+    width: 100px;
+}
+.maindivitemsdis{
+   
+    width: 300px;
+    margin-left: 20%;
+    margin-top: -40px;
+    color: gray;
+    height: 30px;
+}
+.moneyItemsdiv{
+    margin-left: 80%;
+    margin-top: -30px;
+    height: 40px;
+    text-align: center;
+    width: 100px;
+    
+}
+.moneyItemslabels{
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(224, 224, 224);
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .5rem;
+    background-color:bisque;
+    color: white;
+    font-weight: bold;
+    
+}
+.hrelementss{
+    
+    width: 700px;
+}
+
+.Deletebtn{
+    border: solid;
+    border-width: 1px;
+    background-color: rgba(107, 107, 107, 0.382);
+    color:white;
+    border-radius: 3rem;
+    font-weight: bold;
+    border-color: white;
+    width: 22px;
+    height: 20px;
+    
+    
+}
+.DeletebtnDiv{
+    
+    width: 25px;
+    margin-left: 120px;
+    margin-top: -47%;
+}
+
+.EditbtnDiv{
+    
+    margin-left: -80px;
+    margin-top: -3%;
+    width: 50px;
+}
+.Editbtn{
+    border: solid;
+    border-width: 1px;
+    background-color: rgba(126, 126, 126, 0.27);
+    border-radius: .7rem;
+    width: 50px;
+    font-weight: bold;
+    border-color: white;
+    height: 25px;
+    color: rgba(0, 0, 0, 0.378);
+    
+}
+
+.Editbtn:hover{
+    
+    background-color: rgb(161, 161, 161);
+    color: rgb(255, 255, 255);
+    border-color: #cc0066;
+    border-width: 2px;
+}
+.Deletebtn:hover{
+    
+    background-color: rgb(212, 212, 212);
+    color:#cc0066;
+    border-width: 1px;
+    border-color: #cc0066;
+}
