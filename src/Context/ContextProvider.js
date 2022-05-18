@@ -23,7 +23,7 @@ const dispatch = useDispatch();
     const autoreloadExpenses = async() =>{
         const userId = localStorage.getItem('userID');
         try{
-          const res =await axios.get(`https://expensetracker-userdata-default-rtdb.firebaseio.com/expenses/${userId}.json`)
+          const res =await axios.get(`https://expensetracker-60159-default-rtdb.firebaseio.com/expenses/${userId}.json`)
           // working  https://expensetracker-userdata-default-rtdb.firebaseio.com/expenses/${userId}.json
           const data =res.data;
           let arr=[];

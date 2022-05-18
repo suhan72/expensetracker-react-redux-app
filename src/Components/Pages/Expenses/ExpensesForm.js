@@ -28,7 +28,7 @@ const ExpensesForm = ( props) =>{
         ){
             try{
                 
-                const res = axios.post(`https://expensetracker-userdata-default-rtdb.firebaseio.com/expenses/${userId}.json`,data);
+                const res = axios.post(`https://expensetracker-60159-default-rtdb.firebaseio.com/${userId}.json`,data);
                 
                 console.log(res);
                
@@ -62,9 +62,9 @@ const ExpensesForm = ( props) =>{
             }
             setLoading(true);
             try{
-                const res = await axios.put(`https://expensetracker-userdata-default-rtdb.firebaseio.com/expenses/${userIdEdit}/${id}.json`,data)
-                console.log(res);
-                console.log('delete success');
+                const res = await axios.put(`https://expensetracker-60159-default-rtdb.firebaseio.com/expenses/${userIdEdit}/${id}.json`,data)
+                // console.log(res);
+                // console.log('delete success');
                 moneyRef.current.value='';
                 descriptionRef.current.value='';
                 categoryRef.current.value='';

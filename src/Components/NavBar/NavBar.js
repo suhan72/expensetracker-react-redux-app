@@ -36,7 +36,7 @@ console.log(ispremium)
 
       <div className="subDivvP">
         <NavLink to="/expenses" className="nammeclass">
-          Products
+          Tracker
         </NavLink>
       </div>
 

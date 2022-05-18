@@ -2,7 +2,7 @@ import {  useContext } from 'react';
 import axios from 'axios';
 import Context from '../../../Context/Context';
 import './ExpensesList.css';
-
+ 
 
 const ExpensesList = (props) => {
     const CTX = useContext(Context);
@@ -11,12 +11,13 @@ const ExpensesList = (props) => {
         
         const userId = localStorage.getItem('userID');
         try{
-            const res = await axios.delete(`https://expensetracker-userdata-default-rtdb.firebaseio.com/expenses/${userId}/${props.id}.json`)
-            console.log(res);
-            console.log('Expense successfuly deleted');
+            
+            const res = await axios.delete(`https://expensetracker-60159-default-rtdb.firebaseio.com/expenses/${userId}/${props.id}.json`)
+            
+            console.log('deleted');
             CTX.forReload();
         }catch(err){
-            console.log(`Some error ${err}`);
+            console.log(`error ${err}`);
         }
     }
 
